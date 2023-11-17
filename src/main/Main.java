@@ -18,7 +18,6 @@ public class Main {
         financiamentos.add(new Apartamento(500000.00,10,10));
         financiamentos.add(new Apartamento(600000.00,11,10));
         financiamentos.add(new Terreno(500000.00,11,10));
-        financiamentos.add(new Terreno(500000.00,11,10));
 
         // Solicitar informações para o financiamento
         System.out.println("Informe os dados para o financiamento: ");
