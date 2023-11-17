@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="decfcb98-6683-4120-941b-4a4f0c57ffc1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2WrzGsyoVJwLZmFf5u1PhfCkTvf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/emanu/OneDrive/Área de Trabalho/Faculdade/Fundamentos da Programação Orientada a Objetos/Testes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/emanu/OneDrive/Área de Trabalho/Faculdade/Fundamentos da Programação Orientada a Objetos/POO/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="decfcb98-6683-4120-941b-4a4f0c57ffc1" name="Changes" comment="" />
+      <created>1697505396373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697505396373</updated>
+      <workItem from="1697505397455" duration="1777000" />
+      <workItem from="1697582757407" duration="7885000" />
+      <workItem from="1697663931337" duration="761000" />
+      <workItem from="1697682620755" duration="2582000" />
+      <workItem from="1697685602094" duration="64000" />
+      <workItem from="1698368809233" duration="8000" />
+      <workItem from="1698369337955" duration="607000" />
+      <workItem from="1698373991820" duration="3552000" />
+      <workItem from="1698804773890" duration="103000" />
+      <workItem from="1698806444970" duration="1308000" />
+      <workItem from="1698893527027" duration="39000" />
+      <workItem from="1699059112125" duration="1565000" />
+      <workItem from="1699317994617" duration="83000" />
+      <workItem from="1700187139124" duration="941000" />
+      <workItem from="1700188186554" duration="899000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
