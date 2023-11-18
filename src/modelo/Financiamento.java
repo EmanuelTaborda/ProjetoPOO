@@ -1,6 +1,6 @@
 package modelo;
 
-public class Financiamento {
+public abstract class Financiamento {
     // Atributos da classe
     protected double valorImovel;
     protected int prazoFinanciamento;
@@ -25,6 +25,7 @@ public class Financiamento {
         return totalDoPagamento;
     }
 
+    //Método para mostrar dados do financiamento
     public void mostrarDadosFinanciamento() {
         System.out.printf("Valor do imóvel: R$%.2f \n", valorImovel);
         System.out.printf("Valor total do financiamento: R$%.2f \n", calcTotalDoPagamento());
