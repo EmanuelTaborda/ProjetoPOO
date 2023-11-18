@@ -13,11 +13,11 @@ public class Main {
         var financiamentos = new ArrayList<Financiamento>();
 
         //Modelos de financiamento
-        financiamentos.add(new Casa(500000.00,10,10));
-        financiamentos.add(new Casa(600000.00,11,10));
-        financiamentos.add(new Apartamento(500000.00,10,10));
-        financiamentos.add(new Apartamento(600000.00,11,10));
-        financiamentos.add(new Terreno(500000.00,11,10));
+        financiamentos.add(new Casa(500000.00,10,0.10));
+        financiamentos.add(new Casa(600000.00,11,0.10));
+        financiamentos.add(new Apartamento(500000.00,10,0.10));
+        financiamentos.add(new Apartamento(600000.00,11,0.10));
+        financiamentos.add(new Terreno(500000.00,11,0.10));
 
         // Solicitar informações para o financiamento
         System.out.println("Informe os dados para o financiamento: ");
