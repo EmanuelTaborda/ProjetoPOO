@@ -56,7 +56,7 @@ public class InterfaceUsuario {
             }
         } while (taxaJurosAnual <= 0);
 
-        return taxaJurosAnual;
+        return taxaJurosAnual / 100;
     }
 
     public static int verificaTipoDoImovel() {
