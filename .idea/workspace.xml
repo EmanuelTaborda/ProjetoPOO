@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="decfcb98-6683-4120-941b-4a4f0c57ffc1" name="Changes" comment="Implementado semana 6 - Classe abstrata">
+    <list default="true" id="decfcb98-6683-4120-941b-4a4f0c57ffc1" name="Changes" comment="Pedindo dado tipo String na classe terreno">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POO/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POO/modelo/Terreno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO/modelo/Terreno.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Terreno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Terreno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/InterfaceUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/InterfaceUsuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <workItem from="1700267286057" duration="13000" />
       <workItem from="1700271152232" duration="6000" />
       <workItem from="1700271460641" duration="12938000" />
-      <workItem from="1700329194025" duration="691000" />
+      <workItem from="1700329194025" duration="2582000" />
     </task>
     <task id="LOCAL-00001" summary="Nada">
       <option name="closed" value="true" />
@@ -145,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700290008815</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Pedindo dado tipo String na classe terreno">
+      <option name="closed" value="true" />
+      <created>1700330006870</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700330006870</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +176,7 @@
     <MESSAGE value="Nada" />
     <MESSAGE value="Concertado erro da taxa de juros." />
     <MESSAGE value="Implementado semana 6 - Classe abstrata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementado semana 6 - Classe abstrata" />
+    <MESSAGE value="Pedindo dado tipo String na classe terreno" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pedindo dado tipo String na classe terreno" />
   </component>
 </project>

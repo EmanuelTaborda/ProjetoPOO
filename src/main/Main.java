@@ -25,66 +25,27 @@ public class Main {
         double valorImovel = InterfaceUsuario.solicitaValorImovel();
         int prazoFinanciamento = InterfaceUsuario.solicitaPrazoFinanciamento();
         double taxaJurosAnual = InterfaceUsuario.solicitaTaxaDeJuros();
-        //verifica o tipo do imóvel para obter o calculo correto e os demais atributos
+        //verifica o tipo do imóvel para obter o calculo correto e os demais atributos das subclasses
         int tipoImovel = InterfaceUsuario.verificaTipoDoImovel();
         System.out.println("\n");
 
         //Caso seja casa
         if (tipoImovel == 1) {
-            Scanner scanner = new Scanner(System.in);
-            double areaConstruida;
-            do {
-                System.out.print("Informe o tamanho da área construída da casa (m²): ");
-                areaConstruida = scanner.nextDouble();
-
-                if (areaConstruida <= 0) {
-                    System.out.println("Por gentileza, informe um valor positivo.");
-                }
-            } while (areaConstruida <= 0);
-            double tamTerreno;
-            do {
-                System.out.print("Informe o tamanho do terreno (m²): ");
-                tamTerreno = scanner.nextDouble();
-
-                if (tamTerreno <= 0) {
-                    System.out.println("Por gentileza, informe um valor positivo.");
-                }
-            } while (tamTerreno <= 0);
+            double areaConstruida = InterfaceUsuario.solicitaAreaConstruida();
+            double tamTerreno = InterfaceUsuario.solicitaTamTerreno();
             financiamentos.add(new Casa(valorImovel, prazoFinanciamento, taxaJurosAnual, areaConstruida, tamTerreno));
         }
 
         //Caso seja apartamento
         else if (tipoImovel == 2) {
-            Scanner scanner = new Scanner(System.in);
-            int vagasGaragem;
-                System.out.print("Informe o número de vagas de garagem disponível: ");
-                vagasGaragem = scanner.nextInt();
-            int nAndar;
-            System.out.print("Informe o número do andar: ");
-            nAndar = scanner.nextInt();
+            int vagasGaragem = InterfaceUsuario.solicitaVagasGaragem();
+            int nAndar = InterfaceUsuario.solicitaAndar();
                 financiamentos.add(new Apartamento(valorImovel, prazoFinanciamento, taxaJurosAnual, vagasGaragem, nAndar));
         }
 
         //Caso seja terreno
         else if (tipoImovel == 3) {
-            Scanner scanner = new Scanner(System.in);
-            int confereZona;
-            String zona;
-            do {
-                System.out.println("Informe o tipo de região em que o terreno se encontra: ");
-                System.out.println("(1) Zona residencial\n(2) Zona Comercial");
-                System.out.print("Indique apenas o número referente a opção desejada: ");
-                confereZona = scanner.nextInt();
-
-                if (confereZona <=0 || confereZona >2){
-                    System.out.println("\nPor gentileza, informe um valor válido entre as opções.");
-                }
-            } while (confereZona <=0 || confereZona >2);
-            if (confereZona == 1){
-                zona = "Residencial";
-            } else {
-                zona = "Comercial";
-            }
+            String zona = InterfaceUsuario.defineZona();
             financiamentos.add(new Terreno(valorImovel, prazoFinanciamento, taxaJurosAnual, zona));
         }
 

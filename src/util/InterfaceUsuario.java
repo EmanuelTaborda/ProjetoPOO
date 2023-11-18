@@ -59,6 +59,7 @@ public class InterfaceUsuario {
         return taxaJurosAnual / 100;
     }
 
+    //Metodo para verificar tipo do imóvel para financiamento
     public static int verificaTipoDoImovel() {
         Scanner scanner = new Scanner(System.in);
         int tipoImovel;
@@ -75,5 +76,76 @@ public class InterfaceUsuario {
         } while (tipoImovel <= 0 || tipoImovel >3);
 
         return tipoImovel;
+    }
+
+    //Método para solicitar Area construída da casa
+    public static double solicitaAreaConstruida () {
+        Scanner scanner = new Scanner(System.in);
+        double areaConstruida;
+        do {
+            System.out.print("Informe o tamanho da área construída da casa (m²): ");
+            areaConstruida = scanner.nextDouble();
+
+            if (areaConstruida <= 0) {
+                System.out.println("Por gentileza, informe um valor positivo.");
+            }
+        } while (areaConstruida <= 0);
+        return areaConstruida;
+    }
+
+    //Método para solicitar tamanho do terreno da casa
+    public static double solicitaTamTerreno() {
+        Scanner scanner = new Scanner(System.in);
+        double tamTerreno;
+        do {
+            System.out.print("Informe o tamanho do terreno (m²): ");
+            tamTerreno = scanner.nextDouble();
+
+            if (tamTerreno <= 0) {
+                System.out.println("Por gentileza, informe um valor positivo.");
+            }
+        } while (tamTerreno <= 0);
+        return tamTerreno;
+    }
+
+    //Método para solicitar n° de vagas de garagem
+    public static int solicitaVagasGaragem() {
+        Scanner scanner = new Scanner(System.in);
+        int vagasGaragem;
+        System.out.print("Informe o número de vagas de garagem disponível: ");
+        vagasGaragem = scanner.nextInt();
+        return vagasGaragem;
+    }
+
+    //Método para solicitar n° do andar
+    public static int solicitaAndar() {
+        Scanner scanner = new Scanner(System.in);
+        int nAndar;
+        System.out.print("Informe o número do andar: ");
+        nAndar = scanner.nextInt();
+        return nAndar;
+    }
+
+    //Método para defininir tipo da zona do terreno
+    public static String defineZona() {
+        Scanner scanner = new Scanner(System.in);
+        int confereZona;
+        String zona;
+        do {
+            System.out.println("Informe o tipo de região em que o terreno se encontra: ");
+            System.out.println("(1) Zona Residencial\n(2) Zona Comercial");
+            System.out.print("Indique apenas o número referente a opção desejada: ");
+            confereZona = scanner.nextInt();
+
+            if (confereZona <= 0 || confereZona > 2) {
+                System.out.println("\nPor gentileza, informe um valor válido entre as opções.");
+            }
+        } while (confereZona <= 0 || confereZona > 2);
+        if (confereZona == 1) {
+            zona = "Residencial";
+        } else {
+            zona = "Comercial";
+        }
+        return zona;
     }
 }
