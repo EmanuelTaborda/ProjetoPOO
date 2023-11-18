@@ -18,7 +18,7 @@ public class Main {
         financiamentos.add(new Casa(600000.00,11,0.10, 200, 300));
         financiamentos.add(new Apartamento(500000.00,10,0.10, 2, 4));
         financiamentos.add(new Apartamento(600000.00,11,0.10, 1, 2));
-        financiamentos.add(new Terreno(500000.00,11,0.10, true));
+        financiamentos.add(new Terreno(500000.00,11,0.10, "Residencial"));
 
         // Solicitar informações para o financiamento
         System.out.println("Informe os dados para o financiamento: ");
@@ -68,26 +68,24 @@ public class Main {
         //Caso seja terreno
         else if (tipoImovel == 3) {
             Scanner scanner = new Scanner(System.in);
-            boolean zonaComercial = true;
-            int confere;
-
+            int confereZona;
+            String zona;
             do {
-
-                System.out.println("O terreno se encontra em zona comercial?");
-                System.out.println("(1) Sim\n(2) Não");
+                System.out.println("Informe o tipo de região em que o terreno se encontra: ");
+                System.out.println("(1) Zona residencial\n(2) Zona Comercial");
                 System.out.print("Indique apenas o número referente a opção desejada: ");
-                confere = scanner.nextInt();
-                if (confere <= 0 || confere > 2) {
+                confereZona = scanner.nextInt();
+
+                if (confereZona <=0 || confereZona >2){
                     System.out.println("\nPor gentileza, informe um valor válido entre as opções.");
                 }
-            } while (confere <= 0 || confere > 2);
-
-            if (confere == 1) {
-                zonaComercial = true;
-            } else if (confere == 2) {
-                zonaComercial = false;
+            } while (confereZona <=0 || confereZona >2);
+            if (confereZona == 1){
+                zona = "Residencial";
+            } else {
+                zona = "Comercial";
             }
-            financiamentos.add(new Terreno(valorImovel, prazoFinanciamento, taxaJurosAnual, zonaComercial));
+            financiamentos.add(new Terreno(valorImovel, prazoFinanciamento, taxaJurosAnual, zona));
         }
 
         // Calcular e mostrar os valores dos financiamentos

@@ -2,14 +2,14 @@ package modelo;
 
 public class Terreno extends Financiamento{
     //Atributo característico da subclasse
-    private boolean zonaComercial;
+    private String zona;
 
-    public Terreno(double valorImovel, int prazoFinanciamento, double taxaJurosAnual, boolean zonaComercial) {
+    public Terreno(double valorImovel, int prazoFinanciamento, double taxaJurosAnual, String zona) {
         super(valorImovel, prazoFinanciamento, taxaJurosAnual);
         this.valorImovel = valorImovel;
         this.prazoFinanciamento = prazoFinanciamento;
         this.taxaJurosAnual = taxaJurosAnual;
-        this.zonaComercial = zonaComercial;
+        this.zona = zona;
     }
 
 

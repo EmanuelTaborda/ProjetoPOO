@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="decfcb98-6683-4120-941b-4a4f0c57ffc1" name="Changes" comment="Concertado erro da taxa de juros.">
+    <list default="true" id="decfcb98-6683-4120-941b-4a4f0c57ffc1" name="Changes" comment="Implementado semana 6 - Classe abstrata">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POO/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POO/modelo/Apartamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO/modelo/Apartamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POO/modelo/Casa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO/modelo/Casa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POO/modelo/Financiamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO/modelo/Financiamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POO/modelo/Terreno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO/modelo/Terreno.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Apartamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Apartamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Casa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Financiamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Financiamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modelo/Terreno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Terreno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +86,8 @@
       <workItem from="1700190738925" duration="1798000" />
       <workItem from="1700267286057" duration="13000" />
       <workItem from="1700271152232" duration="6000" />
-      <workItem from="1700271460641" duration="12569000" />
+      <workItem from="1700271460641" duration="12938000" />
+      <workItem from="1700329194025" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="Nada">
       <option name="closed" value="true" />
@@ -144,15 +137,35 @@
       <option name="project" value="LOCAL" />
       <updated>1700271648410</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implementado semana 6 - Classe abstrata">
+      <option name="closed" value="true" />
+      <created>1700290008815</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700290008815</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nada" />
     <MESSAGE value="Concertado erro da taxa de juros." />
-    <option name="LAST_COMMIT_MESSAGE" value="Concertado erro da taxa de juros." />
+    <MESSAGE value="Implementado semana 6 - Classe abstrata" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementado semana 6 - Classe abstrata" />
   </component>
 </project>
