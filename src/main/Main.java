@@ -5,8 +5,8 @@ import modelo.Casa;
 import modelo.Financiamento;
 import modelo.Terreno;
 import util.InterfaceUsuario;
+
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
