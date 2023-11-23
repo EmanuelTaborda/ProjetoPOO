@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="decfcb98-6683-4120-941b-4a4f0c57ffc1" name="Changes" comment="Criação de métodos em InterfaceUsuario para deminuir o código no Main">
+    <list default="true" id="decfcb98-6683-4120-941b-4a4f0c57ffc1" name="Changes" comment="Implementação da semana 7 - Tratamento de exceções em InterfaceUsuario - Try/Catch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POO/util/InterfaceUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO/util/InterfaceUsuario.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/InterfaceUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/InterfaceUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Apartamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Apartamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Casa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Financiamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Financiamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Terreno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Terreno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,7 @@
       <workItem from="1700271460641" duration="12938000" />
       <workItem from="1700329194025" duration="3086000" />
       <workItem from="1700526265202" duration="9611000" />
-      <workItem from="1700610483255" duration="821000" />
+      <workItem from="1700610483255" duration="8371000" />
     </task>
     <task id="LOCAL-00001" summary="Nada">
       <option name="closed" value="true" />
@@ -164,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700332056576</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implementação da semana 7 - Tratamento de exceções em InterfaceUsuario - Try/Catch">
+      <option name="closed" value="true" />
+      <created>1700614044444</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700614044444</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +197,7 @@
     <MESSAGE value="Implementado semana 6 - Classe abstrata" />
     <MESSAGE value="Pedindo dado tipo String na classe terreno" />
     <MESSAGE value="Criação de métodos em InterfaceUsuario para deminuir o código no Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação de métodos em InterfaceUsuario para deminuir o código no Main" />
+    <MESSAGE value="Implementação da semana 7 - Tratamento de exceções em InterfaceUsuario - Try/Catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação da semana 7 - Tratamento de exceções em InterfaceUsuario - Try/Catch" />
   </component>
 </project>

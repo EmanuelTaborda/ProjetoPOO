@@ -31,6 +31,14 @@ public abstract class Financiamento {
         System.out.printf("Valor total do financiamento: R$%.2f \n", calcTotalDoPagamento());
     }
 
+    public String toString() {
+        return "Financiamento{" +
+                "Valor do Imovel=" + valorImovel +
+                ", Prazo do Financiamento=" + prazoFinanciamento +
+                ", Taxa de juros anual=" + taxaJurosAnual +
+                '}';
+    }
+
     // Getters
     public double getValorImovel() {
         return valorImovel;

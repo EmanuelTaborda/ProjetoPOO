@@ -17,6 +17,15 @@ public class Apartamento extends Financiamento {
         this.nAndar = nAndar;
     }
 
+    public String toString() {
+        return "Apartamento{" +
+                "Valor do Imovel=" + valorImovel +
+                ", Prazo do Financiamento=" + prazoFinanciamento +
+                ", Taxa de juros anual=" + taxaJurosAnual +
+                ", N° de vagas de garagem=" + vagasGaragem +
+                ", n° do andar=" + nAndar +
+                '}';
+    }
 
     @Override
     public double calcPagamentoMensal() {

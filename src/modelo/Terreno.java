@@ -12,6 +12,14 @@ public class Terreno extends Financiamento{
         this.zona = zona;
     }
 
+    public String toString() {
+        return "Terreno{" +
+                "Valor do Imovel=" + valorImovel +
+                ", Prazo do Financiamento=" + prazoFinanciamento +
+                ", Taxa de juros anual=" + taxaJurosAnual +
+                ", Zona='" + zona + '\'' +
+                '}';
+    }
 
     //Adicionando 2% sobre o valor da mensalidade
     public double calcPagamentoMensal() {

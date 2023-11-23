@@ -15,6 +15,16 @@ public class Casa extends Financiamento{
         this.tamTerreno = tamTerreno;
     }
 
+    public String toString() {
+        return "Casa{" +
+                "Valor do Imovel=" + valorImovel +
+                ", Prazo do Financiamento=" + prazoFinanciamento +
+                ", Taxa de juros anual=" + taxaJurosAnual +
+                ", Area Construida=" + areaConstruida +
+                ", Tamanho do Terreno=" + tamTerreno +
+                '}';
+    }
+
     @Override
     //Adicionando o valor de R$80,00 para a casa
     public double calcPagamentoMensal() {
